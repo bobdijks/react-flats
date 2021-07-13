@@ -1,10 +1,46 @@
+@import "./components/flat";
+
 body {
-  font-family: Helvetica;
+  background-color: white;
 }
 
 #root {
-  height: 100vh;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+#root > div {
+  margin-top: 20px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+}
+
+.left-scene {
+  padding-left: 10px;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  .flat-list {
+    column-count: 2;
+    column-gap: 10px;
+    padding: 5px;
+    .flat {
+    margin-bottom: 10px;
+    }
+  }
+}
+
+.right-scene {
+  height: 100vh;
+  width: 40%;
+  position: sticky !important; /* !important to override Gmaps inline CSS */
+  top: 0 !important;
+}
+
+.marker {
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  border-radius: 50%;
 }
