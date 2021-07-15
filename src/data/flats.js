@@ -1,51 +1,51 @@
 const flats = [
   {
-    name: "Charm at the Steps of the Sacre Coeur/Montmartre",
+    name: "Charming flat at the Main Square of the City",
     imageUrl: "https://raw.githubusercontent.com/lewagon/flats-boilerplate/master/images/flat1.jpg",
     price: 164,
     priceCurrency: "EUR",
-    lat: 48.884211,
-    lng: 2.34689
+    lat: 19.432527047669204,
+    lng: -99.13439287367349
   },
   {
-    name: "Trendy Apt in Buttes Montmartre",
+    name: "Trendy Appartment in the Historical Center",
     imageUrl: "https://raw.githubusercontent.com/lewagon/flats-boilerplate/master/images/flat2.jpg",
     price: 200,
     priceCurrency: "EUR",
-    lat: 48.885707,
-    lng: 2.343543
+    lat: 19.434603617899686,
+    lng: -99.14453086462011
   },
   {
-    name: "Super 60m2 in trendy neighborhood!",
+    name: "Super 60m2 in Trendy Bohemian Neighborhood!",
     imageUrl: "https://raw.githubusercontent.com/lewagon/flats-boilerplate/master/images/flat3.jpg",
     price: 150,
     priceCurrency: "EUR",
-    lat: 48.885312,
-    lng: 2.341225
+    lat: 19.410656065817697,
+    lng: -99.17011887871101
   },
   {
-    name: "Splendide terrasse vue imprenable",
+    name: "Splendid Terrace With an Amazing View",
     imageUrl: "https://raw.githubusercontent.com/lewagon/flats-boilerplate/master/images/flat4.jpg",
     price: 115,
     priceCurrency: "EUR",
-    lat: 48.88184,
-    lng: 2.343371
+    lat: 19.351098582431298,
+    lng: -99.17193848490145
   },
   {
-    name: "Superbe vue à 2 min du Sacré Coeur",
+    name: "Superb Penthouse Overlooking the Skyline",
     imageUrl: "https://raw.githubusercontent.com/lewagon/flats-boilerplate/master/images/flat5.jpg",
     price: 135,
     priceCurrency: "EUR",
-    lat: 48.888839,
-    lng: 2.339208
+    lat: 19.427093851445157,
+    lng: -99.19423843678062
   },
   {
-    name: "Bohemian and Chic in Paris",
+    name: "Modern Flat with Lots of Natural Night",
     imageUrl: "https://raw.githubusercontent.com/lewagon/flats-boilerplate/master/images/flat6.jpg",
     price: 90,
     priceCurrency: "EUR",
-    lat: 48.827855,
-    lng: 2.350774
+    lat: 19.315555229096766,
+    lng: -99.20987795676722
   }
 ];
 

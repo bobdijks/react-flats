@@ -4,12 +4,14 @@
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   background-size: cover !important;
   background-position: center;
-  color: white;
+  color: #f7f7f7;
   position: relative;
-  &.active {
-    border: 10px solid red;
-  }
+ }
+
+.flat:hover {
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
 }
+
 .flat-user {
   position: absolute;
   right: 10px;
@@ -17,26 +19,36 @@
   width: 40px;
   border-radius: 50%;
 }
-.flat-category {
+
+.flat-price {
   position: absolute;
+  background-color: red;
+  color: #f7f7f7;
+  font-weight: bolder;
+  text-shadow: none;
+  border-radius: 3px;
+  padding: 5px;
   top: 10px;
-  left: 10px;
+  right: 10px;
   font-size: 15px;
-  text-transform: uppercase;
 }
+
 .flat-description {
   position: absolute;
   bottom: 10px;
   left: 10px;
 }
+
 .flat-description h2 {
   font-size: 20px;
 }
+
 .flat-description p {
   font-size: 14px;
   opacity: 0.7;
   font-weight: lighter;
 }
+
 .flat-link {
   position: absolute;
   top: 0;
@@ -47,6 +59,7 @@
   background: black;
   opacity: 0;
 }
+
 .flat-link:hover {
-  opacity: 0.1;
+  opacity: 0.05;
 }
