@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-
 import flats from '../data/flats';
-import Flat from './flat';
 import FlatList from './flat_list';
 import Map from './map';
 
